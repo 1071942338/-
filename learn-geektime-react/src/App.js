@@ -1,7 +1,12 @@
 import React from 'react';
 import './App.css';
 import { TabBar } from 'antd-mobile';
-import TabbarItemIcon from "./component/TabbarItemIcon";
+import TabbarItemIcon from "./index/component/TabbarItemIcon";
+import DiscoverView from "./discover/component/DiscoverView"
+import LectureView from "./lectureHall/component/LectureView"
+import TribeView from "./tribe/component/TribeView"
+import StudyView from "./study/component/StudyView"
+import MyView from "./my/component/MyView"
 
 class App extends React.Component {
   constructor(props) {
@@ -12,33 +17,7 @@ class App extends React.Component {
       fullScreen: false,
     };
   }
-  renderContent(pageText) {
-    return (
-      <div style={{ backgroundColor: 'white', height: '100%', textAlign: 'center' }}>
-        <div style={{ paddingTop: 60 }}>Clicked “{pageText}” tab， show “{pageText}” information</div>
-        <a style={{ display: 'block', marginTop: 40, marginBottom: 20, color: '#108ee9' }}
-          onClick={(e) => {
-            e.preventDefault();
-            this.setState({
-              hidden: !this.state.hidden,
-            });
-          }}
-        >
-          Click to show/hide tab-bar
-        </a>
-        <a style={{ display: 'block', marginBottom: 600, color: '#108ee9' }}
-          onClick={(e) => {
-            e.preventDefault();
-            this.setState({
-              fullScreen: !this.state.fullScreen,
-            });
-          }}
-        >
-          Click to switch fullscreen
-        </a>
-      </div>
-    );
-  }
+  
   render(){
     return (
 
@@ -63,7 +42,7 @@ class App extends React.Component {
                 });
               }}
             >
-              {this.renderContent('Life')}
+              <DiscoverView></DiscoverView>
             </TabBar.Item>
             <TabBar.Item
               icon={<TabbarItemIcon srcKey="21"/>}
@@ -77,7 +56,7 @@ class App extends React.Component {
                 });
               }}
             >
-              {this.renderContent('Koubei')}
+              <LectureView></LectureView>
             </TabBar.Item>
             <TabBar.Item
               icon={<TabbarItemIcon srcKey="31"/>}
@@ -91,7 +70,7 @@ class App extends React.Component {
                 });
               }}
             >
-              {this.renderContent('Friend')}
+              <TribeView></TribeView>
             </TabBar.Item>
             <TabBar.Item
               icon={<TabbarItemIcon srcKey="41"/>}
@@ -105,7 +84,7 @@ class App extends React.Component {
                 });
               }}
             >
-              {this.renderContent('My')}
+              <StudyView></StudyView>
             </TabBar.Item>
             <TabBar.Item
               title="我的"
@@ -120,7 +99,7 @@ class App extends React.Component {
                 });
               }}
             >
-              {this.renderContent('Life')}
+              <MyView></MyView>
             </TabBar.Item>
           </TabBar>
       </div>
