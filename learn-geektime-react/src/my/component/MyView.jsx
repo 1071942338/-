@@ -14,6 +14,7 @@ import ic_mine_friends from "./image/ic_mine_friends.png"
 import ic_mine_help from "./image/ic_mine_help.png"
 import ic_mine_set from "./image/ic_mine_set.png"
 import { List,WhiteSpace } from 'antd-mobile';
+import MyViewHeader from "./MyViewHeader"
 const Item = List.Item;
 
 export default class MyView extends React.Component {
@@ -32,8 +33,9 @@ export default class MyView extends React.Component {
     render(){
         return(
             <div className={styles.main}>
-                <TitleBar title="我的" items={this.getTitleBarItems()}></TitleBar>
-
+                <TitleBar  items={this.getTitleBarItems()}></TitleBar>
+                <MyViewHeader></MyViewHeader>
+                <WhiteSpace/>
                 <List>
                     <Item
                         thumb={ic_mine_account}
