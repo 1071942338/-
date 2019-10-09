@@ -1,0 +1,72 @@
+{
+  "error": [],
+  "extra": [],
+  "data": {
+    "list": [
+      {
+        "banner_redirect_type": "product",
+        "id": 5435,
+        "banner_utm_term": "banner1158",
+        "extra": {
+          "column_sku": "100036401",
+          "column_type": 1,
+          "product_type": "c1",
+          "column_id": 233,
+          "had_sub": false
+        },
+        "banner_cover": "https:\/\/static001.geekbang.org\/resource\/image\/3b\/c5\/3b2f0090a6ea886df69dcec340d7abc5.png",
+        "banner_redirect_param": "100036401",
+        "banner_title": "10.9第一轮播图-分布式倒计时1天",
+        "score": 2922148311680
+      },
+      {
+        "banner_redirect_type": "product",
+        "id": 5436,
+        "banner_utm_term": "banner1159",
+        "extra": {
+          "column_sku": "100036601",
+          "column_type": 1,
+          "product_type": "c1",
+          "column_id": 235,
+          "had_sub": false
+        },
+        "banner_cover": "https:\/\/static001.geekbang.org\/resource\/image\/22\/14\/22a307fc75c21870483ebb21ebe34e14.jpg",
+        "banner_redirect_param": "100036601",
+        "banner_title": "10.9第二轮播图-DevOps实战笔记",
+        "score": 2917853344384
+      },
+      {
+        "banner_cover": "https:\/\/static001.geekbang.org\/resource\/image\/41\/38\/415dc02138d60d85964e7007a4cf4238.png",
+        "banner_redirect_type": "mall",
+        "banner_redirect_param": "https:\/\/j.youzan.com\/OztFmJ",
+        "banner_title": "10.9第三轮播图-29元礼券活动",
+        "score": 2913558377088,
+        "banner_utm_term": "banner1160",
+        "id": 5437
+      },
+      {
+        "banner_cover": "https:\/\/static001.geekbang.org\/resource\/image\/83\/15\/833632da63690d658c327dc234717815.png",
+        "banner_redirect_type": "article",
+        "banner_redirect_param": "145179",
+        "banner_title": "10.9第四轮播图-10位专家部落AMA",
+        "score": 2909263409792,
+        "banner_utm_term": "banner1161",
+        "id": 5438
+      },
+      {
+        "banner_cover": "https:\/\/static001.geekbang.org\/resource\/image\/b0\/53\/b0c7848addc802c02996b29843399d53.jpg",
+        "banner_redirect_type": "mall",
+        "banner_redirect_param": "https:\/\/j.youzan.com\/-tT8ni",
+        "banner_title": "10.8第五轮播图-极客大学",
+        "score": 2883493606016,
+        "banner_utm_term": "banner1156",
+        "id": 5440
+      }
+    ],
+    "page": {
+      "count": 5,
+      "more": false
+    }
+  },
+  "code": 0
+}
