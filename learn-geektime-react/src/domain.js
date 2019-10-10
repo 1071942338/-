@@ -1,4 +1,4 @@
 export  default {
-    // baseUrl:"https:zhangguojun.cn/api/",
-    baseUrl:"http://127.0.0.1:8080/api/"
+    baseUrl:"https://zhangguojun.cn/api/",
+    // baseUrl:"http://127.0.0.1:8080/api/"
 }
