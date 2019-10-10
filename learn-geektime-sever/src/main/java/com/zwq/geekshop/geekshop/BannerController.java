@@ -15,8 +15,8 @@ import java.util.Map;
 @RestController
 public class BannerController {
 
-    @RequestMapping("/bannerList")
-    String login(){
+    @RequestMapping("api/bannerList")
+    String bannerList(){
 
         String sql = "select * from banner";
 
