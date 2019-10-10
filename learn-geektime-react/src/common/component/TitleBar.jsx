@@ -17,8 +17,8 @@ export default class TitleBar extends React.Component {
         }
 
         const elements = [];
-        items.map((element)=>{
-            let item = <div  className={styles.rightItem}>
+        items.map((element,index)=>{
+            let item = <div  className={styles.rightItem} key={index}>
                 {element}
             </div>;
             elements.push(item);
