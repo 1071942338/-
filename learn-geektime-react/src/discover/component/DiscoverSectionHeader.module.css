@@ -1,0 +1,34 @@
+.main{
+    width: 100%;
+    height: 55px;
+    /*background: #00aaee;*/
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    height: 100%;
+    /*background: #4dd865;*/
+    display: flex;
+    align-items: center;
+}
+
+.leftColor{
+    width: 4px;
+    height: 25px;
+    margin-right: 5px;
+    background: rgb(232,202,158);
+}
+.leftTitle{
+    /*width: 2px;*/
+    /*height: 25px;*/
+    font-size: 25px;
+}
+
+.right{
+    color: lightgray;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}

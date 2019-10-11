@@ -7,6 +7,7 @@ import { WhiteSpace,InputItem,} from 'antd-mobile';
 import {getBannerList } from "../../ajax"
 import DiscoverAudio from  "./DiscoverAudio"
 import DiscoverBanner from  "./DiscoverBanner"
+import DiscoverVideo from  "./DiscoverVideo"
 
 
 
@@ -40,6 +41,8 @@ export default class DiscoverView extends React.Component {
                 <DiscoverBanner/>
                 <WhiteSpace/>
                 <DiscoverAudio/>
+                <WhiteSpace/>
+                <DiscoverVideo/>
             </div>
         )
     }
